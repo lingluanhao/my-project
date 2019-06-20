@@ -1,20 +1,82 @@
 module.exports = {
-    title: 'Hao\'s blog',
-    description: '我的个人网站',
-    head: [ // 注入到当前页面的 HTML <head> 中的标签
-      ['link', { rel: 'icon', href: '/logo.jpg' }], // 增加一个自定义的 favicon(网页标签的图标)
+  title: 'data Com', // 设置网站标题
+  base: '/hao/',
+  description: 'Just for fun', //描述
+  dest: './dist',   // 设置输出目录
+  port: 2333, //端口
+  themeConfig: { //主题配置
+    // 添加导航栏
+    nav: [
+      { text: '主页', link: '/' }, // 导航条
+      { text: '组件文档', link: '/baseComponents/' },
+      { text: '知识库', link: '/knowledge/' },
+      {
+        text: 'github',
+        // 这里是下拉列表展现形式。
+        items: [
+          { text: 'focus-outside', link: 'https://github.com/TaoXuSheng/focus-outside' },
+          { text: 'stylus-converter', link: 'https://github.com/TaoXuSheng/stylus-converter' },
+        ]
+      }
     ],
-    base: '/', // 这是部署到github相关的配置
-    markdown: {
-      lineNumbers: false // 代码块显示行号
-    },
-    themeConfig: {
-      nav:[ // 导航栏配置
-        {text: '前端基础', link: '/accumulate/' },
-        {text: '算法题库', link: '/algorithm/'},
-        {text: '微博', link: 'https://baidu.com'}
+    // 为以下路由添加侧边栏
+    sidebar:{
+      '/baseComponents/': [
+        {
+          title: '布局类组件',
+          collapsable: true,
+          children: [
+            'base/test1',
+            'base/test2',
+            'base/test3',
+            'base/test4',
+          ]
+        },
+        {
+          title: '可视化组件',
+          collapsable: true,
+          children: [
+          ]
+        },
+        {
+          title: '工具类组件',
+          collapsable: true,
+          children: [
+          ]
+        },
+        {
+          title: '方法类函数',
+          collapsable: true,
+          children: [
+          ]
+        }
       ],
-      sidebar: 'auto', // 侧边栏配置
-      sidebarDepth: 2, // 侧边栏显示2级
+      '/knowledge/': [
+        {
+          title: 'CSS知识库',
+          collapsable: false,
+          children: [
+          ]
+        },
+        {
+          title: 'JS知识库',
+          collapsable: false,
+          children: [
+          ]
+        },
+        {
+          title: 'node知识库',
+          collapsable: false,
+          children: [
+          ]
+        },
+        {
+          title: 'vue知识库',
+          collapsable: false,
+          children: [
+          ]
+        }
+      ]
     }
-  };
+  }
+}
