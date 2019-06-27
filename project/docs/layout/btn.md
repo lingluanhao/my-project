@@ -1,5 +1,5 @@
 ---
-title: 按钮
+title: btn
 prev: false
 next: false
 ---

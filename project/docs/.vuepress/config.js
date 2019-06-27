@@ -2,7 +2,7 @@ module.exports = {
   title: '管理后台文档', 
   description: '徐硕豪',
   head: [
-      ['link', { rel: 'icon', href: 'https://c.weimobwmc.com/static-resource/6c5af0e60047435598750aea13dab5aa.png' }],
+      ['link', { rel: 'icon', href: 'https://image-c-dev.weimobwmc.com/qa-hv-scloud/a770202a7ef04cd6aadf592b7d59f690.jpg' }],
       ['link', { rel: 'manifest', href: 'https://c.weimobwmc.com/static-resource/2d7c4863e34e4bbf955ea7055744e7bf.png' }],
   ],
   themeConfig: {

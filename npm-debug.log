@@ -10,7 +10,7 @@
 6 silly lifecycle project@1.0.0~predev: no script for predev, continuing
 7 info lifecycle project@1.0.0~dev: project@1.0.0
 8 verbose lifecycle project@1.0.0~dev: unsafe-perm in lifecycle true
-9 verbose lifecycle project@1.0.0~dev: PATH: D:\nvm\v6.9.3\node_modules\npm\bin\node-gyp-bin;E:\webroot\my-project\node_modules\.bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;D:\Program Files\Git\cmd;D:\Program Files\nodejs\;C:\WINDOWS\System32\OpenSSH\;D:\Program Files\Microsoft VS Code\bin;D:\nvm;D:\;C:\Users\dell\AppData\Local\Microsoft\WindowsApps;D:\Program Files\Microsoft VS Code\bin;C:\Users\dell\AppData\Roaming\npm;D:\nvm;D:\nvm\nodejs
+9 verbose lifecycle project@1.0.0~dev: PATH: D:\nvm\v6.9.3\node_modules\npm\bin\node-gyp-bin;E:\webroot\my-project\node_modules\.bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;D:\Program Files\Git\cmd;D:\Program Files\nodejs\;C:\WINDOWS\System32\OpenSSH\;D:\Program Files\Microsoft VS Code\bin;D:\nvm;D:\;C:\Users\dell\AppData\Local\Microsoft\WindowsApps;D:\Program Files\Microsoft VS Code\bin;C:\Users\dell\AppData\Roaming\npm;D:\nvm;D:\nvm\nodejs;
 10 verbose lifecycle project@1.0.0~dev: CWD: E:\webroot\my-project
 11 silly lifecycle project@1.0.0~dev: Args: [ '/d /s /c', 'vuepress dev project/docs' ]
 12 silly lifecycle project@1.0.0~dev: Returned: code: 1  signal: null
@@ -27,7 +27,7 @@
 14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
 15 verbose pkgid project@1.0.0
 16 verbose cwd E:\webroot\my-project
-17 error Windows_NT 10.0.17134
+17 error Windows_NT 10.0.18362
 18 error argv "D:\\nvm\\nodejs\\node.exe" "D:\\nvm\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "run" "dev"
 19 error node v6.9.3
 20 error npm  v3.10.10
